@@ -1,4 +1,4 @@
-# responsivecontainer
+# Responsive Container
 
 Use percentage for width and height values in any Widget
 
@@ -35,10 +35,42 @@ ResponsiveContainer(
 
 ```
 
-### About me
+### Full exemple
 
-Jacob Moura
-jacobaraujo7@gmail.com
+```dart
+import 'package:flutter/material.dart';
+import 'package:responsive_container/responsive_container.dart';
+
+void main() => runApp(new MyApp());
+
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+
+    return new MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(title: Text("Responsive Container"),),
+        body: Center(
+
+          child: ResponsiveContainer(
+            heightPercent: 50.0, //value percent of screen total height
+            widthPercent: 50.0,  //value percent of screen total width
+
+            child: Container(color: Colors.red,), //any widget
+          )
+        ),
+      )
+    );
+  }
+}
+
+```
+![alt text](https://raw.githubusercontent.com/jacobaraujo7/responsive_container/branch/screenshot.png)
+
+## About me
+
+- Jacob Moura <jacobaraujo7@gmail.com>
 
 For news on the world Flutter -> [flutterando.com.br](https://flutterando.com.br).
 
