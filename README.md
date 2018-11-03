@@ -66,7 +66,7 @@ class MyApp extends StatelessWidget {
 }
 
 ```
-![alt text](https://raw.githubusercontent.com/jacobaraujo7/responsive_container/master/screenshot.png)
+![alt text](https://raw.githubusercontent.com/jacobaraujo7/responsive_container/master/screenshot2.png)
 
 ## About me
 
