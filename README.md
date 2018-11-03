@@ -1,6 +1,14 @@
 # responsivecontainer
 
-A new flutter package project.
+Use percentage for width and height values in any Widget
+- Add the dependency to your [pubspec.yaml] file.
+
+```yaml
+  dependencies:
+    flutter:
+      sdk: flutter
+    responsive_container:
+```
 
 ## Getting Started
 
