@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
             heightPercent: 50.0, //value percent of screen total height
             widthPercent: 50.0,  //value percent of screen total width
 
-            child: Container(color: Colors.red,), //anything widget
+            child: Container(color: Colors.red,), //any widget
           )
         ),
       )
